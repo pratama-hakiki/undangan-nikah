@@ -77,7 +77,7 @@ export const data = {
     {
       id: 1,
       name: "Pratama Aji Prisadi",
-      icon: "./src/assets/images/bca.png",
+      icon: "./src/assets/images/mandiri.png",
       rekening: "12345678",
     },
     {
