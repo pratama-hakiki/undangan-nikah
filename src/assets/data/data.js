@@ -45,8 +45,8 @@ export const data = {
     },
 
     link: {
-        calendar: 'https://calendar.app.google/oSVLRMYC79GzuA4f9',
-        map: 'https://maps.app.goo.gl/q1Ask2Jgd4ekiiKBA',
+        calendar: 'https://calendar.app.google/ibwoBW7YTjKYKi2F8',
+        map: 'https://maps.app.goo.gl/r6QKvq4b8YRUPdUd8',
     },
 
     galeri: [
@@ -89,7 +89,7 @@ export const data = {
 
     audio: './src/assets/audio/wedding.mp3',
 
-    api: 'https://script.google.com/macros/s/AKfycbyydz6N4p2VWUG8zsXeURv6ap9RP8a4eC3x6N3x6qTDjMVr1cIBz9S0NsHw2rWvBOSXGg/exec',
+    api: 'https://script.google.com/macros/s/AKfycbyMoiBc_Q-hpaIk4F7fImZiP5azKAwlRlp-mAGVDVrfkG-pg0_WqaoszR8878NatKuJNw/exec',
 
     navbar: [
         {
