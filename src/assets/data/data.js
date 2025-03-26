@@ -78,13 +78,13 @@ export const data = {
       id: 1,
       name: "Pratama Aji Prisadi",
       icon: "./src/assets/images/mandiri.png",
-      rekening: "12345678",
+      rekening: "1290011590755",
     },
     {
       id: 2,
       name: "Pratama Aji Prisadi",
       icon: "./src/assets/images/bri.png",
-      rekening: "12345678",
+      rekening: "051001051139500",
     },
   ],
 
