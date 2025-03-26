@@ -2,18 +2,18 @@ export const data = {
   bride: {
     L: {
       id: 1,
-      name: "Lorem Ipsum",
-      child: "Putra ke lorem",
-      father: "Lorem",
-      mother: "Ipsum",
+      name: "Pratama Aji Prisadi, S.Tr.Kom",
+      child: "Putra ke satu",
+      father: "Saepul Apandi",
+      mother: "Minarni",
       image: "./src/assets/images/cowo.png",
     },
     P: {
       id: 2,
-      name: "Ipsum Lorem",
-      child: "Putri ke lorem",
-      father: "Lorem",
-      mother: "Ipsum",
+      name: "Hakiki Widya Ningrum, S.Tr.Kom",
+      child: "Putri ke dua",
+      father: "Raden Mohammed Soekarno",
+      mother: "Yusniar",
       image: "./src/assets/images/cewe.png",
     },
 
@@ -22,27 +22,27 @@ export const data = {
 
   time: {
     marriage: {
-      year: "2030",
-      month: "November",
-      date: "14",
-      day: "Kamis",
+      year: "2025",
+      month: "Mei",
+      date: "17",
+      day: "Sabtu",
       hours: {
         start: "08.00",
         finish: "Selesai",
       },
     },
     reception: {
-      year: "2024",
-      month: "November",
-      date: "14",
-      day: "Kamis",
+      year: "2025",
+      month: "Mei",
+      date: "17",
+      day: "Sabtu",
       hours: {
         start: "11.00",
         finish: "Selesai",
       },
     },
     address:
-      "Kp. Lorem, RT 000/ RW 000, Desa.Lorem, Kec.Ipsum, Kab.Lorem, Lorem (1234)",
+      "Masjid Raya Puri Teluk Jambe, Sirnabaya, Telukjambe Timur, Karawang, West Java 41361",
   },
 
   link: {
@@ -76,13 +76,13 @@ export const data = {
   bank: [
     {
       id: 1,
-      name: "Lorem Ipsum",
+      name: "Pratama Aji Prisadi",
       icon: "./src/assets/images/bca.png",
       rekening: "12345678",
     },
     {
       id: 2,
-      name: "Ipsum Lorem",
+      name: "Pratama Aji Prisadi",
       icon: "./src/assets/images/bri.png",
       rekening: "12345678",
     },
