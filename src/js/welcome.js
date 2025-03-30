@@ -33,7 +33,7 @@ export const welcome = () => {
     const params = getQueryParameter("to");
 
     if (params) {
-      weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>${params}</span>`;
+      weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span style="font-family: 'Old Standard TT', serif;">${params}</span>`;
       name.value = params;
     } else {
       weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>Teman-teman semua</span>`;
