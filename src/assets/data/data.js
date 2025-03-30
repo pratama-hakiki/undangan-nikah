@@ -76,9 +76,9 @@ export const data = {
   bank: [
     {
       id: 1,
-      name: "Pratama Aji Prisadi",
+      name: "Hakiki Widya Ningrum",
       icon: "./src/assets/images/mandiri.png",
-      rekening: "1290011590755",
+      rekening: "1730014990783",
     },
     {
       id: 2,
