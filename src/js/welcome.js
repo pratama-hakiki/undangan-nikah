@@ -23,7 +23,7 @@ export const welcome = () => {
     } = bride;
     return `
             <img src="${coupleImage}" alt="couple animation">
-            <figcaption>
+            <figcaption style="font-family: 'Cormorant', serif;">
                 Aji & Arum
             </figcaption>`;
   };
