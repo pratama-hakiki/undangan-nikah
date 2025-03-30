@@ -24,7 +24,7 @@ export const welcome = () => {
     return `
             <img src="${coupleImage}" alt="couple animation">
             <figcaption style="font-family: 'Cormorant', serif;">
-                Aji & Arum
+                Aji <span style="font-familiy: 'Josefin Sans', sans-serif;">&</span> Arum
             </figcaption>`;
   };
 
@@ -36,7 +36,7 @@ export const welcome = () => {
       weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span style="font-family: 'Old Standard TT', serif;">${params}</span>`;
       name.value = params;
     } else {
-      weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>Teman-teman semua</span>`;
+      weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span style="font-family: 'Old Standard TT', serif;">Teman-teman semua</span>`;
     }
   };
 
