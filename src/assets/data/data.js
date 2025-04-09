@@ -38,7 +38,7 @@ export const data = {
       day: "Sabtu",
       hours: {
         start: "11.00",
-        finish: "Selesai",
+        finish: "14.00",
       },
     },
     address:
