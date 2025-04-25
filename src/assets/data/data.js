@@ -1,6 +1,6 @@
 export const data = {
   bride: {
-    L: {
+    P: {
       id: 1,
       name: "Pratama Aji Prisadi, S.Tr.Kom",
       child: "Putra ke satu",
@@ -8,7 +8,7 @@ export const data = {
       mother: "Minarni",
       image: "./src/assets/images/cowo.png",
     },
-    P: {
+    L: {
       id: 2,
       name: "Hakiki Widya Ningrum, S.Tr.Kom",
       child: "Putri ke dua",
@@ -27,7 +27,7 @@ export const data = {
       date: "17",
       day: "Sabtu",
       hours: {
-        start: "08.00",
+        start: "09.00",
         finish: "Selesai",
       },
     },
