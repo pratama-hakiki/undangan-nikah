@@ -20,40 +20,40 @@ export const wishas = () => {
     ".button-grup button"
   );
 
-  const listItemBank = (data) =>
-    `  <figure data-aos="zoom-in" data-aos-duration="1000">
-                <img src=${data.icon} alt="bank icon animation">
-                <figcaption>No. Rekening ${data.rekening.slice(
-                  0,
-                  4
-                )}xxxx <br>A.n ${data.name}</figcaption>
-                <button data-rekening=${
-                  data.rekening
-                } aria-label="copy rekening">Salin No. Rekening</button>
-           </figure>`;
+  //   const listItemBank = (data) =>
+  //     `  <figure data-aos="zoom-in" data-aos-duration="1000">
+  //                 <img src=${data.icon} alt="bank icon animation">
+  //                 <figcaption>No. Rekening ${data.rekening.slice(
+  //                   0,
+  //                   4
+  //                 )}xxxx <br>A.n ${data.name}</figcaption>
+  //                 <button data-rekening=${
+  //                   data.rekening
+  //                 } aria-label="copy rekening">Salin No. Rekening</button>
+  //            </figure>`;
 
-  const initialBank = () => {
-    const wishasBank = wishasContainer.children[1];
-    const [_, __, containerBank] = wishasBank.children;
+  //   const initialBank = () => {
+  //     const wishasBank = wishasContainer.children[1];
+  //     const [_, __, containerBank] = wishasBank.children;
 
-    renderElement(data.bank, containerBank, listItemBank);
+  //     renderElement(data.bank, containerBank, listItemBank);
 
-    containerBank.querySelectorAll("button").forEach((button) => {
-      button.addEventListener("click", async (e) => {
-        const rekening = e.target.dataset.rekening;
-        try {
-          await navigator.clipboard.writeText(rekening);
-          button.textContent = "Berhasil menyalin";
-        } catch (error) {
-          console.log(`Error : ${error.message}`);
-        } finally {
-          setTimeout(() => {
-            button.textContent = "Salin No. Rekening";
-          }, 2000);
-        }
-      });
-    });
-  };
+  //     containerBank.querySelectorAll("button").forEach((button) => {
+  //       button.addEventListener("click", async (e) => {
+  //         const rekening = e.target.dataset.rekening;
+  //         try {
+  //           await navigator.clipboard.writeText(rekening);
+  //           button.textContent = "Berhasil menyalin";
+  //         } catch (error) {
+  //           console.log(`Error : ${error.message}`);
+  //         } finally {
+  //           setTimeout(() => {
+  //             button.textContent = "Salin No. Rekening";
+  //           }, 2000);
+  //         }
+  //       });
+  //     });
+  //   };
 
   const listItemComentar = (data) => {
     const name = formattedName(data.name);
