@@ -21,7 +21,8 @@
 
 .welcome.active {
   transform: translateY(0);
-  opacity: 1;
+  background-image: url(../assets/images/bg.jpg);
+  /* opacity: 1; */
 }
 
 .welcome.hide {
