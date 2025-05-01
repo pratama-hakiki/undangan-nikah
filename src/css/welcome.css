@@ -22,7 +22,7 @@
 .welcome.active {
   transform: translateY(0);
   background-image: url(../assets/images/bg.jpg);
-  /* opacity: 1; */
+  opacity: 1;
 }
 
 .welcome.hide {
