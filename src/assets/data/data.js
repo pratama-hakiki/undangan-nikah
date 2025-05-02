@@ -53,24 +53,16 @@ export const data = {
   galeri: [
     {
       id: 1,
-      image: "./src/assets/images/photo_1_2025-03-30_16-44-29.jpg",
+      image: "./src/assets/images/photo_4_2025-03-30_16-44-29.jpg",
     },
-    // {
-    //   id: 2,
-    //   image: "./src/assets/images/photo_2_2025-03-30_16-44-29.jpg",
-    // },
     {
-      id: 3,
+      id: 2,
       image: "./src/assets/images/photo_3_2025-03-30_16-44-29.jpg",
     },
     {
-      id: 4,
-      image: "./src/assets/images/photo_4_2025-03-30_16-44-29.jpg",
+      id: 3,
+      image: "./src/assets/images/photo_1_2025-03-30_16-44-29.jpg",
     },
-    // {
-    //   id: 5,
-    //   image: "./src/assets/images/photo_5_2025-03-30_16-44-29.jpg",
-    // },
   ],
 
   bank: [
